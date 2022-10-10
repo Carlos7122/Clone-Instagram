@@ -1,0 +1,27 @@
+//Tamanho das media querys
+    desktop: min-width 1024px
+    Tablet: min-width 428px max-width 1024px
+    Mobile: max-width 428px
+
+
+//facebook icon   
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+...
+
+//cores
+
+--azul-escuro: #385185;
+--azul-claro: #0095f6;
+--cor-padrão-fontes: #262626;
+--cor-links-rodape: #8E8E8E;
+--cor-background: #FAFAFA;
+
+//tipografia
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+--fonte-principal: "Segoe UI", Arial, sans-serif;

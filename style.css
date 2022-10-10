@@ -1,0 +1,124 @@
+:root {
+    --cor-background: #FAFAFA;
+
+    --azul-escuro: #385185;
+    --azul-claro: #0095f6;
+    --preto: #262626;
+    --cinza: #8E8E8E;
+    --branco: #FFFFFF;
+
+    --fonte-principal: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    color: var(--preto);
+
+    background-color: var(--cor-background);
+
+    display: flex;
+    justify-content: center;
+    padding: 3em 0 4em 0;
+    margin: 0 auto;
+}
+
+
+/* Imagem celular */
+.imagem__celular {
+    margin-right: 2em;
+}
+
+/* Container */
+.container {
+    margin-left: 2em;
+}
+
+/* Container divisao 1 */
+.container__divisao1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--branco);
+    border: 0.5px solid #d8d8d8;
+    padding: 2em;
+}
+
+.container__formulario {
+    margin: 2em 0;
+}
+
+.container__formulario-login {
+    background-color: var(--cor-background);
+    border: 1px solid #d8d8d8;
+
+    width: 300px;
+    padding: 0.5em;
+}
+
+.container__formulario-senha {
+    background-color: var(--cor-background);
+    border: 1px solid #d8d8d8;
+
+    width: 300px;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+
+.container__formulario-botao {
+    width: 100%;
+    padding: 0.5em 0;
+    margin-top: 1em;
+
+    border:none;
+    border-radius: 5px;
+
+    background-color: var(--azul-claro);
+    color: var(--branco);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.container__texto {
+    display: flex;
+    justify-content: center;
+
+    color: var(--cinza);
+
+    width: 20px;
+    font-weight: 500;
+}
+
+.container__texto-traco {
+    display: flex;
+
+    border: 1px solid var(--cinza);
+}
+
+.container__texto-facebook {
+    display: flex;
+    align-items: center;
+
+    margin: 2em;
+}
+
+.container__imagem-facebook {
+    width: 25px;
+    height: 25px;
+}
+
+.container__link-facebook {
+    text-decoration: none;
+    color: var(--azul-escuro);
+
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container__esqueceu-senha {
+    text-decoration: none; 
+    color: var(--azul-escuro);
+}
+
